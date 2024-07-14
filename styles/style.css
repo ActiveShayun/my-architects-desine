@@ -71,7 +71,7 @@
 }
 
 .baner, .navbar{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -99,4 +99,155 @@
     font-weight: 400;
     margin-bottom: 1.3rem;
 
+}
+
+/* maim contant */
+
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+
+}
+
+.team{
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 50px;
+    margin-top: 3rem;
+}
+
+.teams-imag-contauner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.teams-imag-contauner img{
+          width: 232px;
+          height: 232px;
+}
+
+.our-features h2{
+    font-size: 2.8rem;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+.our-features p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* <!-- features section style--> */
+.features-section{
+    display: flex;
+    margin-top: 3.7rem;
+    gap: 2rem;
+    position: relative;
+   
+}
+
+    
+.text-container h2{
+    font-size: 2.8rem;
+   font-weight: 700;
+   margin-bottom: 1.4rem;
+}
+
+.text-container p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.text-container h4{
+    font-size: 1.4rem;
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.imag-container img{
+   max-width: 100%;
+}
+
+.ten-year-cxperimece{
+   width: 280px;
+   height: 150px;
+   position: absolute;
+   border-radius: 8px;
+   background: rgb(255, 144, 14);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 180px;
+    bottom: -15px;
+   
+}
+
+.ten-year-cxperimece h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ten-year-cxperimece p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* section some text */
+.some-facts{
+    margin-top: 6rem;
+}
+.some-icom{
+   justify-content: space-between;
+   margin-top: 2rem;
+}
+
+.child-icon{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+}
+.child-icon h5{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.child-icon p{
+    color: #727272;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.Sponspors-section{
+ text-align: center;
+ margin-top: 4rem;
+ flex-direction: column;
+}
+
+.social-container{
+    display: flex;
+    justify-content: space-between;
+}
+.Sponspors-section h3{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 1.7rem;
+}
+.Sponspors-section p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
 }
