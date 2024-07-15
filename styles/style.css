@@ -34,7 +34,8 @@
 
 /* bg light */
 .bg-light{
-    background-color:  rgba(255, 144, 14, 0.1);;
+    background-color:  #ff900e1a;
+    padding: 3rem 0;
 }
 
 /* every button */
@@ -122,6 +123,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+
 }
 
 .teams-imag-contauner img{
@@ -149,7 +151,22 @@ main{
     position: relative;
    
 }
-
+.features-1{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3 );
+}
+.features-2{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0 );
+}
+    
+.features-3{
+    font-size: 2.3rem;
+    font-weight: 700;
+   color:  #ff900e;
+}
     
 .text-container h2{
     font-size: 2.8rem;
@@ -206,6 +223,11 @@ main{
 .some-facts{
     margin-top: 6rem;
 }
+
+.some-text h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
 .some-icom{
    justify-content: space-between;
    margin-top: 2rem;
@@ -240,6 +262,7 @@ main{
 .social-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .Sponspors-section h3{
     font-size: 2.7rem;
@@ -250,4 +273,25 @@ main{
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 2rem;
+}
+
+/* footer styles */
+
+.footer-containers{
+  max-width: 1150px;
+  height: 100px;
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.footer-box{
+    background-color: #ff900e1a;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }

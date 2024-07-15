@@ -1,0 +1,124 @@
+/* responsive for mobile */
+
+@media screen and (max-width: 576px) {
+    
+    .header{
+        width: 96%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .baner, .navbar{
+        width: 97%;
+    }
+
+    .nav-item{
+        margin-right: 9px;
+   }
+   
+    .brand{
+        font-size: 1rem;
+        margin-right: 10px;
+        font-weight: 700;
+    }
+
+    main{
+        max-width: 96%;
+        margin: 0 auto;
+        background: rgb(110, 65, 67);
+    
+    }
+
+    .team{
+      flex-direction: column-reverse;
+    }
+
+    .our-features{
+        padding-left: 1rem;
+    }
+
+    .teams-imag-contauner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .teams-imag-contauner img{
+        width: 342px;
+        height: 342px;
+}
+
+.features-section{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.ten-year-cxperimece{
+    right: 120px;
+    bottom: -75px;
+ }
+
+ .some-facts{
+   margin: 0 auto;
+   margin-top: 8rem;
+   padding: 1.4rem;
+   background-color: blue;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.child-icon{
+    margin-top: 1rem;
+}
+
+ .some-icom{
+     flex-direction: column;
+     justify-content: center;
+ } 
+
+ .social-container{
+  flex-direction: column;
+ }
+
+ .social-container img{
+    margin: 1.3rem;
+ }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px ){
+
+    .header{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .main{
+         width: 95%;
+        margin: 0 auto;
+        padding: 1rem;
+    
+    }
+
+    .social-container{
+        flex-direction: column;
+       }
+
+       .social-container img{
+        margin: 1.3rem;
+     }
+    
+     .some-icom{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 1.3rem;
+       justify-items: center;
+    } 
+
+    .features-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+      
+}
